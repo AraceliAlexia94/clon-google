@@ -1,0 +1,80 @@
+html {
+    min-height: 100%;
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cuadricula{
+    width: 1rem;
+}
+.logo{
+    width: 35%;
+    margin-top: 3rem;
+}
+body{
+    margin: 0rem;
+    margin-bottom: 4rem;
+}
+header{
+    display: flex;
+    justify-content: right;
+    margin-top: 0.5rem;
+}
+a{
+    margin: 0.5rem;
+    text-decoration: none;
+    color: black;
+}
+.letras{
+    display: flex;
+    justify-content: center;
+}
+.buscador{
+    display: flex;
+    justify-content: center;
+    border-radius: 10rem;
+    -webkit-border-radius: 10rem;
+    -moz-border-radius: 10rem;
+    -ms-border-radius: 10rem;
+    -o-border-radius: 10rem;
+}
+.caja{
+    width: 30rem;
+    border-radius: inherit;
+    height: 2rem;
+}
+.botones{
+    display: flex;
+    justify-content: center;
+    margin: 0rem;
+}
+.busqueda{
+    margin: 0.5rem;
+}
+footer{
+    position: absolute;
+    bottom: 0rem;
+    width: 100%;
+    height: 4rem;
+    margin-bottom: 0rem;
+    background-color: rgb(169, 177, 184);
+}
+.left{
+    position: fixed;
+    left: 0rem;
+    bottom: 0.5rem;
+}
+.right{
+    position: fixed;
+    right: 0rem;
+    bottom: 0.5rem;
+}
+.aclaracion{
+    display: flex;
+    justify-content: center;
+}
+p{
+    margin: 0.5rem;
+}
+.linea{
+    border-top: solid darkgray 0.1rem;
+}
